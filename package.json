@@ -1,16 +1,40 @@
 {
-  "name": "egg-view-jade",
-  "version": "1.0.0",
-  "description": "jadehtml template for egg",
+  "name": "egg-view-jade-test",
+  "version": "0.0.1",
+  "description": "egg view plugin for jade",
   "eggPlugin": {
-    "name": "jade"
+   "name": "view",
+    "dep": [
+      "security"
+    ]
   },
-  "main": "index.js",
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "egg-plugin-view"
+  ],
+  "files": [
+    "index.js",
+    "app.js",
+    "config",
+    "app",
+    "lib"
+  ],
+  "main":"app.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "zhaoqinghao",
+  "author": "309725791@qq.com",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaoqinghao/egg-view-jade.git"
+  },
+  "homepage": "https://github.com/eggjs/egg-view-react#readme",
   "dependencies": {
     "jade": "^1.11.0"
   }
