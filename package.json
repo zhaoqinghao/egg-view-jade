@@ -1,5 +1,5 @@
 {
-  "name": "egg-view-jade-test",
+  "name": "egg-view-jade",
   "version": "0.0.1",
   "description": "egg view plugin for jade",
   "eggPlugin": {
